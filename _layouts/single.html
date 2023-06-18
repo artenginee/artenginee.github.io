@@ -37,7 +37,6 @@ layout: default
             {% include page__meta.html %}
           -->
           <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }} <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
-@ljhokgo
         </header>
       {% endunless %}
 
