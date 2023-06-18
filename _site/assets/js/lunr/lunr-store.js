@@ -1,6 +1,6 @@
 var store = [{
         "title": "Python test",
-        "excerpt":"Python is coding language.  ","categories": ["Python"],
+        "excerpt":"Python is coding language.   1장  1장은 Python   2장  2장은   3장  ","categories": ["Python"],
         "tags": ["python","language","coding"],
         "url": "/python/001/",
         "teaser": null

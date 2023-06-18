@@ -12,11 +12,3 @@ taxonomy: Python
 ---
 
 Python에 대해서 다룹니다.
-
-# 1장
- 1장은 Python 
-
-# 2장
- 2장은 
-
-# 3장
