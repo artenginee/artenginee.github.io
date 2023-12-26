@@ -1,19 +1,41 @@
-# Kubectl 과 Kustomize
+---
+title:  "Kubectl 과 minikube 명령어"
+excerpt: "Kubectl과 Kustomize, 그리고 minikube 명령어에 대하여"
+toc: true
+toc_sticky: true
+categories:
+  - Linux
+tags:
+  - linux
+  - os
+  - docker
+last_modified_at: 2023-06-23T08:06:00-05:00
+---
 
-날짜: 2023년 6월 23일
-카테고리: Linux
+
+# Kubectl 과 minikube 명령어
 
 지난 포스팅에서 Docker와 Kubenetes에 대해서 간략?하게 알아보았는데요. 오늘은 쿠버네티스 환경을 구축하는데 필요한 도구들과 간단한 명령어들에 대해서 알아보도록 하겠습니다. 
+<br><br>
+
 
 # kubectl
 
 쿠버네티스 환경을 보면 클러스터 시스템으로 이루어져 있습니다. 클러스터 시스템에는 Master node가 있고, 주변에 worker node가 있는데요. Master node가 주변의 Worker node를 관리하는 구조입니다. 
 
 kubectl은 쿠버네티스의 API 서버와 통신하여 사용자 명령을 전달할 수 있는 CLI 도구 입니다. 
+<br><br>
 
 # kustomize
 
-kustomize는 쿠버네티스의 메니페스트 파일을 좀 더 효율적으로 관리할 수 있도록 도와주는 도구 입니다. kubectl을 관리하는 용도로 사용되는 대표적인 프로그램은 크게 두 가지가 있습니다. kustomize 와 Helm 입니다. 아직 쿠린이 입장에서는 Helm을 더 많이 들어봤는데요. kustomize는 kubectl과 같이 설치되며 쿠버네티스 환경에서 만들어진 프로그램 입니다. 반면에 Helm은 오픈소스로 kubectl을 관리하는데 많이 사용합니다. 
+kustomize는 쿠버네티스의 메니페스트 파일을 좀 더 효율적으로 관리할 수 있도록 도와주는 도구 입니다. kubectl을 관리하는 용도로 사용되는 대표적인 프로그램은 크게 두 가지가 있습니다. kustomize 와 Helm 입니다. 아직 쿠린이 입장에서는 Helm을 더 많이 들어봤는데요. kustomize는 kubectl과 같이 설치되며 쿠버네티스 환경에서 만들어진 프로그램 입니다. 반면에 Helm은 오픈소스로 kubectl을 관리하는데 많이 사용합니다.
+  
+    
+      
+  
+  
+  
+<br><br>
 
 # minikube
 
